@@ -55,7 +55,7 @@
     if(isset($_REQUEST["senha"])){
                 $senha=$_REQUEST["senha"];
     }
-    if($cpf == "111.111.111-11" && $senha=="123"){
+    if($cpf == "111.111.111-11" && $senha == "123"){
       
       session_start();
       $_SESSION['UsuarioLog'] = true;
